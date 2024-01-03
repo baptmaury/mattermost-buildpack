@@ -42,12 +42,12 @@
     },
     "MM_SQLSETTINGS_DATASOURCE": {
       "description": "db url",
-      "value": "${SCALINGO_POSTGRESQL_URL}",
+      "value": "$SCALINGO_POSTGRESQL_URL",
       "required": true
     },
     "MM_CONFIG": {
       "description": "persist config in db (copy url)",
-      "value": "${SCALINGO_POSTGRESQL_URL}",
+      "value": "$SCALINGO_POSTGRESQL_URL",
       "required": false
     },
     "MM_FILESETTINGS_DRIVERNAME": {
